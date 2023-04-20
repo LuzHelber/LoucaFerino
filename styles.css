@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#competicao {
+  margin-top: 50px;
+}
+
+#competicao ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+#competicao li {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 30%;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#cadastro-rodada {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#cadastro-rodada label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#cadastro-rodada select, #cadastro-rodada input[type="number"], #cadastro-rodada input[type="submit"] {
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#cadastro-rodada input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+#pontuacao-grafico {
+  margin-top: 50px;
+}
+
+#pontuacao {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#pontuacao li {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  width: 30%;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+canvas {
+  max-width: 200px;
+  height: 200px;
+  display: block;
+}
